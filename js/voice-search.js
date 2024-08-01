@@ -8,21 +8,19 @@ const voiceSearchModalOpen = ()=>{
 	voiceRecognition();
 }
 
-
-const voiceSearchModalClose = () =>{
-	voiceSearch.style.animation = "desaparecer 0.25s forwards";
+wffwon = "desaparecer 0.25s forwards";
 	setTimeout(()=>{
 	    voiceSearch.style.display = "none";
 	},250)
 }
-
+fwfwfw
 const voiceRecognition = () =>{
 	if (microAceptado == false) {
 	window.SpeechRecognition = window.webkitSpeechRecognition || window.SpeechRecognition;
 	if (!'SpeechRecognition' in window) {
-		alert("que pena, no podes usar la API")
+		alert("que pena,cwcwf no podes usar la API")
 }  
-	}
+	}fwf
 	document.querySelector(".voice-search__result-text").innerHTML = "Habla ahora";
     let recognition = new window.SpeechRecognition();
 
